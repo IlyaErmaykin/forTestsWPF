@@ -1,0 +1,62 @@
+﻿<Page x:Class="forTestsWPF.View.PageView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="200" d:DesignWidth="350"
+	Title="PageView">
+
+    <!--Styles for page-->
+    <Page.Resources>
+        <!--Page view default grid style-->
+        <Style x:Key="PageViewDefaultGridStyle">
+            <Setter Property="Control.Width"               Value="Auto"   />
+            <Setter Property="Control.Height"              Value="Auto"   />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+            <Setter Property="Control.VerticalAlignment"   Value="Center" />
+        </Style>
+
+        <!--Page view default dstack panel style-->
+        <Style x:Key="PageViewDefaultStackPanelStyle">
+            <Setter Property="Control.Width"               Value="Auto"   />
+            <Setter Property="Control.Height"              Value="Auto"   />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+            <Setter Property="Control.VerticalAlignment"   Value="Center" />
+        </Style>
+
+        <!--Page view text block stack panel style-->
+        <Style x:Key="PageViewTextBlockStackPanelStyle" BasedOn="{StaticResource PageViewDefaultStackPanelStyle}"/>
+        
+        <!--PageViewTextBoxStackPanelStyle-->
+        <Style x:Key="PageViewTextBoxStackPanelStyle" BasedOn="{StaticResource PageViewDefaultStackPanelStyle}">
+            <Setter Property="Control.Width" Value="100" />
+        </Style>
+
+        <!--Page view default button style-->
+        <Style x:Key="PageViewDefaultButtonStyle">
+            <Setter Property="Control.Width"               Value="70"   />
+            <Setter Property="Control.Height"              Value="30"   />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+        </Style>
+    </Page.Resources>
+        
+    <!--Layout for page-->
+    <Grid Style="{StaticResource PageViewDefaultGridStyle}">
+        <StackPanel Orientation="Vertical" Style="{StaticResource PageViewDefaultStackPanelStyle}">
+            <StackPanel Orientation="Horizontal" Style="{StaticResource PageViewDefaultStackPanelStyle}">
+                <StackPanel Orientation="Vertical"  Style="{StaticResource PageViewTextBlockStackPanelStyle}">
+                    <TextBlock Text="Имя"/>
+                    <TextBlock Text="Фимилия"/>
+                    <TextBlock Text="Дата рождения"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Style="{StaticResource PageViewTextBoxStackPanelStyle}">
+                    <TextBox />
+                    <TextBox />
+                    <TextBox />
+                </StackPanel>
+           </StackPanel>
+            <Button Content="Стартуем!" Style="{StaticResource PageViewDefaultButtonStyle}"/>
+        </StackPanel>
+    </Grid>
+</Page>

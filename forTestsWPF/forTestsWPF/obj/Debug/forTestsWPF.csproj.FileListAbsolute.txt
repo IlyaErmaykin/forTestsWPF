@@ -1,1 +1,15 @@
 C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\bin\Debug\forTestsWPF.exe.config
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\bin\Debug\forTestsWPF.exe
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\bin\Debug\forTestsWPF.pdb
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\forTestsWPF.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\MainWindow.baml
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\View\PageView.baml
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\View\PageView.g.cs
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\App.g.cs
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\forTestsWPF_MarkupCompile.cache
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\forTestsWPF.g.resources
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\forTestsWPF.Properties.Resources.resources
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\forTestsWPF.csproj.GenerateResource.Cache
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\forTestsWPF.exe
+C:\Users\Алексей\Documents\Projects\forTestsWPF\forTestsWPF\forTestsWPF\obj\Debug\forTestsWPF.pdb
